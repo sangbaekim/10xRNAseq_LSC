@@ -13,19 +13,19 @@ We analyzed 10xscRNA-seq data of Limbal Basal Epithelium cells of Human Cornea, 
 - Monocle3: http://cole-trapnell-lab.github.io/monocle-release/
 - SCENIC: https://github.com/aertslab/SCENIC
 
-## install Seurat
+## Install Seurat
 ```R
   # Enter commands in R (or R studio, if installed)
   install.packages('Seurat')
   library(Seurat)
 ```
-## install Monocle3
+## Install Monocle3
 ```R
   install.packages("devtools")
   devtools::install_github('cole-trapnell-lab/leidenbase')
   devtools::install_github('cole-trapnell-lab/monocle3')
 ```
-## install SCENIC
+## Install SCENIC
 ```R
   if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager") \n
   BiocManager::version()
