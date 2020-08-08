@@ -13,6 +13,15 @@ We analyzed 10xscRNA-seq data of Limbal Basal Epithelium cells of Human Cornea, 
 - Monocle3: http://cole-trapnell-lab.github.io/monocle-release/
 - SCENIC: https://github.com/aertslab/SCENIC
 
+## install SCENIC
+if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
+BiocManager::version()
+BiocManager::install(c("AUCell", "RcisTarget"))
+BiocManager::install(c("GENIE3")) # Optional. Can be replaced by GRNBoost
+BiocManager::install(c("zoo", "mixtools", "rbokeh"))
+BiocManager::install(c("DT", "NMF", "pheatmap", "R2HTML", "Rtsne"))
+
+
 # Raw data: read count matrix 
 - download (GSE153515_LSC_scRNAseq_readcount.txt.gz) from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153515.
 
