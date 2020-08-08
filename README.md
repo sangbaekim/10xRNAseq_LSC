@@ -16,8 +16,8 @@ We analyzed 10xscRNA-seq data of Limbal Basal Epithelium cells of Human Cornea, 
 # Raw data: read count matrix 
 - download (GSE153515_LSC_scRNAseq_readcount.txt.gz) from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153515.
 
-# Intruction
-- To run the code on a small dataset as demo: Run the deconvolution_algorithm.m script with the input file
+# Instruction
+- To run the R script code with the raw readcount file after unzip.
 - Data and R script
 - scRNAseq_analysis_LSC.R : R script for processing the read count data from GSE153515
 - regev_lab_cell_cycle_genes.txt: Gene list for cell cyle status analysis using Seurat
