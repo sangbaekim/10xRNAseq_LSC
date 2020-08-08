@@ -14,7 +14,7 @@ We analyzed 10xscRNA-seq data of Limbal Basal Epithelium cells of Human Cornea, 
 - SCENIC: https://github.com/aertslab/SCENIC
 
 # Raw data: read count matrix 
-- GSE153515_LSC_scRNAseq_readcount.txt.gz
+- download (GSE153515_LSC_scRNAseq_readcount.txt.gz) from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153515.
 
 # Intruction
 - To run the code on a small dataset as demo: Run the deconvolution_algorithm.m script with the input file
