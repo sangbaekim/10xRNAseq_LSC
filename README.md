@@ -14,7 +14,7 @@ We analyzed 10xscRNA-seq data of Limbal Basal Epithelium cells of Human Cornea, 
 - SCENIC: https://github.com/aertslab/SCENIC
 
 ## install SCENIC
-  if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager") 
+  if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager") \n
   BiocManager::version()
   BiocManager::install(c("AUCell", "RcisTarget"))
   BiocManager::install(c("GENIE3")) # Optional. Can be replaced by GRNBoost
