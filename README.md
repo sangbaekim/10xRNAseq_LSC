@@ -34,6 +34,10 @@ We analyzed 10xscRNA-seq data of Limbal Basal Epithelium cells of Human Cornea, 
   BiocManager::install(c("zoo", "mixtools", "rbokeh"))
   BiocManager::install(c("DT", "NMF", "pheatmap", "R2HTML", "Rtsne"))
 ```
+## Others
+```R
+BiocManager::install(c("dplyr","Matrix","tidyverse","pheatmap","ggplot2"))
+```
 
 # Raw data: read count matrix 
 - download (GSE153515_LSC_scRNAseq_readcount.txt.gz) from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE153515.
